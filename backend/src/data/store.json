@@ -1,0 +1,741 @@
+{
+  "employees": [
+    {
+      "id": "emp_01",
+      "employeeId": "EMP-1001",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@dayflow.corp",
+      "password": "$2a$10$HKqyjcq6R96NHKivGNbel.eXfihCVb1m4nwIwY5TFNQjMqw1GcIF2",
+      "phone": "+1 (555) 777-9999",
+      "address": "999 Silicon Vista Way, San Francisco, CA 94107",
+      "profilePicture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400",
+      "department": "Engineering",
+      "designation": "Senior Frontend Engineer",
+      "joiningDate": "2023-03-15",
+      "role": "employee",
+      "status": "Active",
+      "manager": "David Vance (Director of Engineering)",
+      "salary": {
+        "basic": 6500,
+        "allowances": {
+          "hra": 1800,
+          "special": 950,
+          "medical": 450,
+          "conveyance": 300,
+          "total": 3500
+        },
+        "deductions": {
+          "pf": 780,
+          "tax": 1120,
+          "insurance": 250,
+          "other": 50,
+          "total": 2200
+        },
+        "netSalary": 7800
+      },
+      "documents": [
+        {
+          "id": "doc_1",
+          "employeeId": "EMP-1001",
+          "name": "Employment_Agreement_2023.pdf",
+          "type": "Contract",
+          "uploadDate": "2023-03-15",
+          "fileUrl": "https://dayflow.corp/docs/EMP-1001/contract.pdf",
+          "size": "1.8 MB"
+        },
+        {
+          "id": "doc_2",
+          "employeeId": "EMP-1001",
+          "name": "Passport_Scan_Copy.pdf",
+          "type": "Identification",
+          "uploadDate": "2023-03-16",
+          "fileUrl": "https://dayflow.corp/docs/EMP-1001/passport.pdf",
+          "size": "2.4 MB"
+        },
+        {
+          "id": "doc_3",
+          "employeeId": "EMP-1001",
+          "name": "Health_Insurance_Policy.pdf",
+          "type": "Insurance",
+          "uploadDate": "2024-01-10",
+          "fileUrl": "https://dayflow.corp/docs/EMP-1001/insurance.pdf",
+          "size": "950 KB"
+        }
+      ]
+    },
+    {
+      "id": "emp_02",
+      "employeeId": "EMP-1002",
+      "name": "Sarah Jenkins",
+      "email": "sarah.jenkins@dayflow.corp",
+      "password": "$2a$10$p050tVcAlktsRIrblgt9YuIB4NIFod2G1i8MzWk/o0r1ht5zc9MeS",
+      "phone": "+1 (555) 876-5432",
+      "address": "128 Mission Blvd, Apt 12B, San Francisco, CA 94103",
+      "profilePicture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop&q=80",
+      "department": "Product Design",
+      "designation": "Lead UI/UX Designer",
+      "joiningDate": "2022-08-01",
+      "role": "employee",
+      "status": "Active",
+      "manager": "Elena Rostova (VP of Product)",
+      "salary": {
+        "basic": 7000,
+        "allowances": {
+          "hra": 2000,
+          "special": 1000,
+          "medical": 500,
+          "conveyance": 300,
+          "total": 3800
+        },
+        "deductions": {
+          "pf": 840,
+          "tax": 1260,
+          "insurance": 250,
+          "other": 50,
+          "total": 2400
+        },
+        "netSalary": 8400
+      },
+      "documents": [
+        {
+          "id": "doc_4",
+          "employeeId": "EMP-1002",
+          "name": "Offer_Letter_Signed.pdf",
+          "type": "Contract",
+          "uploadDate": "2022-08-01",
+          "fileUrl": "https://dayflow.corp/docs/EMP-1002/contract.pdf",
+          "size": "1.2 MB"
+        }
+      ]
+    },
+    {
+      "id": "emp_03",
+      "employeeId": "EMP-1003",
+      "name": "Marcus Chen",
+      "email": "marcus.chen@dayflow.corp",
+      "password": "$2a$10$Wb44FDXpv.N7SFYJ2MmAyuxIHE6vAKdYVLCzquBzf1mKSzx2FtUMO",
+      "phone": "+1 (555) 345-6789",
+      "address": "500 Howard St, Suite 210, San Francisco, CA 94105",
+      "profilePicture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+      "department": "Human Resources",
+      "designation": "HR Director & Operations",
+      "joiningDate": "2021-01-10",
+      "role": "hr",
+      "status": "Active",
+      "manager": "Claire Underwood (COO)",
+      "salary": {
+        "basic": 8000,
+        "allowances": {
+          "hra": 2200,
+          "special": 1200,
+          "medical": 500,
+          "conveyance": 300,
+          "total": 4200
+        },
+        "deductions": {
+          "pf": 960,
+          "tax": 1540,
+          "insurance": 250,
+          "other": 50,
+          "total": 2800
+        },
+        "netSalary": 9400
+      }
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att_2026-08-22_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-22",
+      "checkIn": "2026-08-22T07:24:36.036Z",
+      "status": "Present",
+      "notes": "Currently Working"
+    },
+    {
+      "id": "att_2026-07-27_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-07-27",
+      "checkIn": "2026-07-27T09:19:00.000Z",
+      "checkOut": "2026-07-27T18:11:00.000Z",
+      "workingHours": 8.9,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-07-28_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-07-28",
+      "checkIn": "2026-07-28T09:15:00.000Z",
+      "checkOut": "2026-07-28T18:24:00.000Z",
+      "workingHours": 9.2,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-07-29_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-07-29",
+      "checkIn": "2026-07-29T09:02:00.000Z",
+      "checkOut": "2026-07-29T18:22:00.000Z",
+      "workingHours": 9.3,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-07-30_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-07-30",
+      "checkIn": "2026-07-30T09:12:00.000Z",
+      "checkOut": "2026-07-30T18:04:00.000Z",
+      "workingHours": 8.9,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-07-31_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-07-31",
+      "checkIn": "2026-07-31T09:19:00.000Z",
+      "checkOut": "2026-07-31T18:17:00.000Z",
+      "workingHours": 9,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-03_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-03",
+      "checkIn": "",
+      "checkOut": "",
+      "workingHours": 0,
+      "status": "Absent",
+      "notes": "Unexcused Absence"
+    },
+    {
+      "id": "att_2026-08-04_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-04",
+      "checkIn": "2026-08-04T09:13:00.000Z",
+      "checkOut": "2026-08-04T17:00:00.000Z",
+      "workingHours": 7.8,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-05_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-05",
+      "checkIn": "2026-08-05T09:00:00.000Z",
+      "checkOut": "2026-08-05T18:25:00.000Z",
+      "workingHours": 9.4,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-06_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-06",
+      "checkIn": "2026-08-06T09:06:00.000Z",
+      "checkOut": "2026-08-06T18:29:00.000Z",
+      "workingHours": 9.4,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-07_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-07",
+      "checkIn": "2026-08-07T09:03:00.000Z",
+      "checkOut": "2026-08-07T17:26:00.000Z",
+      "workingHours": 8.4,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-10_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-10",
+      "checkIn": "2026-08-10T09:00:00.000Z",
+      "checkOut": "2026-08-10T17:00:00.000Z",
+      "workingHours": 0,
+      "status": "Leave",
+      "notes": "Approved Paid Leave"
+    },
+    {
+      "id": "att_2026-08-11_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-11",
+      "checkIn": "2026-08-11T09:18:00.000Z",
+      "checkOut": "2026-08-11T17:27:00.000Z",
+      "workingHours": 8.2,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-12_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-12",
+      "checkIn": "2026-08-12T09:02:00.000Z",
+      "checkOut": "2026-08-12T17:20:00.000Z",
+      "workingHours": 8.3,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-13_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-13",
+      "checkIn": "2026-08-13T09:18:00.000Z",
+      "checkOut": "2026-08-13T17:16:00.000Z",
+      "workingHours": 8,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-14_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-14",
+      "checkIn": "2026-08-14T09:06:00.000Z",
+      "checkOut": "2026-08-14T18:29:00.000Z",
+      "workingHours": 9.4,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-17_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-17",
+      "checkIn": "2026-08-17T09:02:00.000Z",
+      "checkOut": "2026-08-17T18:11:00.000Z",
+      "workingHours": 9.2,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-18_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-18",
+      "checkIn": "2026-08-18T09:11:00.000Z",
+      "checkOut": "2026-08-18T17:24:00.000Z",
+      "workingHours": 8.2,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-19_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-19",
+      "checkIn": "2026-08-19T09:19:00.000Z",
+      "checkOut": "2026-08-19T17:07:00.000Z",
+      "workingHours": 7.8,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-20_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-20",
+      "checkIn": "2026-08-20T09:01:00.000Z",
+      "checkOut": "2026-08-20T17:23:00.000Z",
+      "workingHours": 8.4,
+      "status": "Present",
+      "notes": "Regular Shift"
+    },
+    {
+      "id": "att_2026-08-21_EMP-1001",
+      "employeeId": "EMP-1001",
+      "date": "2026-08-21",
+      "checkIn": "2026-08-21T09:10:00.000Z",
+      "checkOut": "2026-08-21T17:11:00.000Z",
+      "workingHours": 8,
+      "status": "Present",
+      "notes": "Regular Shift"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Sick Leave",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-25",
+      "numberOfDays": 2,
+      "remarks": "cold and cough",
+      "id": "leave_1787388166082",
+      "status": "Pending",
+      "createdAt": "2026-08-22T08:42:46.082Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Sick Leave",
+      "startDate": "2027-02-22",
+      "endDate": "2027-02-24",
+      "numberOfDays": 3,
+      "remarks": "Scheduled medical appointment and recovery.",
+      "id": "leave_1787382834435",
+      "status": "Pending",
+      "createdAt": "2026-08-22T07:13:54.435Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Sick Leave",
+      "startDate": "2026-12-22",
+      "endDate": "2026-12-24",
+      "numberOfDays": 3,
+      "remarks": "Scheduled medical appointment and recovery.",
+      "id": "leave_1787382815944",
+      "status": "Pending",
+      "createdAt": "2026-08-22T07:13:35.944Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Sick Leave",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08",
+      "numberOfDays": 1,
+      "remarks": "Scheduled medical appointment and recovery.",
+      "id": "leave_1787382778318",
+      "status": "Pending",
+      "createdAt": "2026-08-22T07:12:58.318Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Unpaid Leave",
+      "startDate": "2027-11-23",
+      "endDate": "2027-11-25",
+      "numberOfDays": 3,
+      "remarks": "Personal urgent relocation.",
+      "id": "leave_1787382695892",
+      "status": "Pending",
+      "createdAt": "2026-08-22T07:11:35.892Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Sick Leave",
+      "startDate": "2027-11-03",
+      "endDate": "2027-11-03",
+      "numberOfDays": 1,
+      "remarks": "Doctor follow-up checkup.",
+      "id": "leave_1787382695888",
+      "status": "Pending",
+      "createdAt": "2026-08-22T07:11:35.888Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Paid Leave",
+      "startDate": "2027-10-14",
+      "endDate": "2027-10-18",
+      "numberOfDays": 3,
+      "remarks": "End of year family vacation.",
+      "id": "leave_1787382695882",
+      "status": "Pending",
+      "createdAt": "2026-08-22T07:11:35.882Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Unpaid Leave",
+      "startDate": "2027-08-21",
+      "endDate": "2027-08-23",
+      "numberOfDays": 1,
+      "remarks": "Personal urgent relocation.",
+      "id": "leave_1787378588437",
+      "status": "Pending",
+      "createdAt": "2026-08-22T06:03:08.437Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Sick Leave",
+      "startDate": "2027-08-01",
+      "endDate": "2027-08-01",
+      "numberOfDays": 1,
+      "remarks": "Doctor follow-up checkup.",
+      "id": "leave_1787378588434",
+      "status": "Pending",
+      "createdAt": "2026-08-22T06:03:08.434Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Paid Leave",
+      "startDate": "2027-07-12",
+      "endDate": "2027-07-16",
+      "numberOfDays": 5,
+      "remarks": "End of year family vacation.",
+      "id": "leave_1787378588431",
+      "status": "Pending",
+      "createdAt": "2026-08-22T06:03:08.431Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Unpaid Leave",
+      "startDate": "2027-02-01",
+      "endDate": "2027-02-03",
+      "numberOfDays": 3,
+      "remarks": "Personal urgent relocation.",
+      "id": "leave_1787377224286",
+      "status": "Pending",
+      "createdAt": "2026-08-22T05:40:24.286Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Sick Leave",
+      "startDate": "2027-01-05",
+      "endDate": "2027-01-05",
+      "numberOfDays": 1,
+      "remarks": "Doctor follow-up checkup.",
+      "id": "leave_1787377224283",
+      "status": "Pending",
+      "createdAt": "2026-08-22T05:40:24.283Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Paid Leave",
+      "startDate": "2026-12-14",
+      "endDate": "2026-12-18",
+      "numberOfDays": 5,
+      "remarks": "End of year family vacation.",
+      "id": "leave_1787377224280",
+      "status": "Pending",
+      "createdAt": "2026-08-22T05:40:24.280Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Sick Leave",
+      "startDate": "2027-02-06",
+      "endDate": "2027-02-08",
+      "numberOfDays": 1,
+      "remarks": "Scheduled medical appointment and recovery.",
+      "id": "leave_1787376592358",
+      "status": "Pending",
+      "createdAt": "2026-08-22T05:29:52.358Z"
+    },
+    {
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Sick Leave",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-13",
+      "numberOfDays": 2,
+      "remarks": "Scheduled medical appointment and recovery.",
+      "id": "leave_1787376532580",
+      "status": "Pending",
+      "createdAt": "2026-08-22T05:28:52.580Z"
+    },
+    {
+      "id": "leave_101",
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Paid Leave",
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-12",
+      "numberOfDays": 3,
+      "remarks": "Family vacation and personal downtime.",
+      "status": "Approved",
+      "adminComment": "Approved. Enjoy your vacation!",
+      "createdAt": "2026-08-01T10:30:00.000Z"
+    },
+    {
+      "id": "leave_102",
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Sick Leave",
+      "startDate": "2026-07-15",
+      "endDate": "2026-07-15",
+      "numberOfDays": 1,
+      "remarks": "Viral fever and prescribed medical rest.",
+      "status": "Approved",
+      "adminComment": "Get well soon. Medical slip acknowledged.",
+      "createdAt": "2026-07-15T08:15:00.000Z"
+    },
+    {
+      "id": "leave_103",
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Paid Leave",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-04",
+      "numberOfDays": 3,
+      "remarks": "Attending Web Dev Tech Conference & Workshops.",
+      "status": "Pending",
+      "createdAt": "2026-08-20T14:40:00.000Z"
+    },
+    {
+      "id": "leave_104",
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "leaveType": "Unpaid Leave",
+      "startDate": "2026-06-05",
+      "endDate": "2026-06-09",
+      "numberOfDays": 5,
+      "remarks": "Extended leave for relocation.",
+      "status": "Rejected",
+      "adminComment": "Rejected due to critical product sprint milestone. Please reschedule.",
+      "createdAt": "2026-05-28T09:00:00.000Z"
+    }
+  ],
+  "leaveBalances": {
+    "EMP-1001": {
+      "employeeId": "EMP-1001",
+      "paidLeave": {
+        "total": 20,
+        "used": 4,
+        "remaining": 16
+      },
+      "sickLeave": {
+        "total": 10,
+        "used": 2,
+        "remaining": 8
+      },
+      "unpaidLeave": {
+        "used": 0
+      }
+    },
+    "EMP-1002": {
+      "employeeId": "EMP-1002",
+      "paidLeave": {
+        "total": 20,
+        "used": 2,
+        "remaining": 18
+      },
+      "sickLeave": {
+        "total": 10,
+        "used": 1,
+        "remaining": 9
+      },
+      "unpaidLeave": {
+        "used": 0
+      }
+    }
+  },
+  "payrolls": [
+    {
+      "id": "pay_2026_07",
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "department": "Engineering",
+      "designation": "Senior Frontend Engineer",
+      "payPeriod": "July 2026",
+      "paymentDate": "2026-07-31",
+      "basicSalary": 6500,
+      "allowances": {
+        "hra": 1800,
+        "special": 950,
+        "medical": 450,
+        "conveyance": 300,
+        "total": 3500
+      },
+      "deductions": {
+        "pf": 780,
+        "tax": 1120,
+        "insurance": 250,
+        "other": 50,
+        "total": 2200
+      },
+      "grossSalary": 10000,
+      "netSalary": 7800,
+      "paymentStatus": "Paid",
+      "bankAccount": "•••• •••• •••• 4912 (Silicon Valley Bank)",
+      "taxNumber": "US-TAX-8921-987"
+    },
+    {
+      "id": "pay_2026_06",
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "department": "Engineering",
+      "designation": "Senior Frontend Engineer",
+      "payPeriod": "June 2026",
+      "paymentDate": "2026-06-30",
+      "basicSalary": 6500,
+      "allowances": {
+        "hra": 1800,
+        "special": 950,
+        "medical": 450,
+        "conveyance": 300,
+        "total": 3500
+      },
+      "deductions": {
+        "pf": 780,
+        "tax": 1120,
+        "insurance": 250,
+        "other": 50,
+        "total": 2200
+      },
+      "grossSalary": 10000,
+      "netSalary": 7800,
+      "paymentStatus": "Paid",
+      "bankAccount": "•••• •••• •••• 4912 (Silicon Valley Bank)",
+      "taxNumber": "US-TAX-8921-987"
+    },
+    {
+      "id": "pay_2026_05",
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "department": "Engineering",
+      "designation": "Senior Frontend Engineer",
+      "payPeriod": "May 2026",
+      "paymentDate": "2026-05-31",
+      "basicSalary": 6500,
+      "allowances": {
+        "hra": 1800,
+        "special": 950,
+        "medical": 450,
+        "conveyance": 300,
+        "total": 3500
+      },
+      "deductions": {
+        "pf": 780,
+        "tax": 1120,
+        "insurance": 250,
+        "other": 50,
+        "total": 2200
+      },
+      "grossSalary": 10000,
+      "netSalary": 7800,
+      "paymentStatus": "Paid",
+      "bankAccount": "•••• •••• •••• 4912 (Silicon Valley Bank)",
+      "taxNumber": "US-TAX-8921-987"
+    },
+    {
+      "id": "pay_2026_08",
+      "employeeId": "EMP-1001",
+      "employeeName": "Alex Rivera",
+      "department": "Engineering",
+      "designation": "Senior Frontend Engineer",
+      "payPeriod": "August 2026",
+      "paymentDate": "2026-08-31",
+      "basicSalary": 6500,
+      "allowances": {
+        "hra": 1800,
+        "special": 950,
+        "medical": 450,
+        "conveyance": 300,
+        "total": 3500
+      },
+      "deductions": {
+        "pf": 780,
+        "tax": 1120,
+        "insurance": 250,
+        "other": 50,
+        "total": 2200
+      },
+      "grossSalary": 10000,
+      "netSalary": 7800,
+      "paymentStatus": "Processing",
+      "bankAccount": "•••• •••• •••• 4912 (Silicon Valley Bank)",
+      "taxNumber": "US-TAX-8921-987"
+    }
+  ]
+}

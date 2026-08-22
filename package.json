@@ -1,0 +1,16 @@
+{
+  "name": "dayflow-hrms",
+  "version": "1.0.0",
+  "description": "Dayflow – Human Resource Management System (Hackathon Project)",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "test": "npm --prefix backend test"
+  },
+  "keywords": ["hrms", "dayflow", "employee-module", "hackathon"],
+  "author": "Dayflow Team",
+  "license": "ISC"
+}
